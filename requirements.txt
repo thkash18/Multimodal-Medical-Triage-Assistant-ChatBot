@@ -1,0 +1,8 @@
+streamlit
+langchain-openai
+langchain-huggingface
+langchain-qdrant
+qdrant-client
+sentence-transformers
+pillow
+python-dotenv
