@@ -1,6 +1,7 @@
 # 🏥 MediTriage Pro: Multimodal Clinical Assistant
 
 **MediTriage Pro** is an advanced Medical Decision Support System (CDSS) designed for rapid patient screening. By leveraging Multimodal LLMs and Vector Databases, the system analyzes both **symptom descriptions (text)** and **clinical photos (images)** to provide an immediate urgency rating and actionable guidance.
+**Live Demo:** [Try MediTriage Pro here](https://multimodal-medical-triage-assistant-chatbotgit.streamlit.app/)
 
 ---
 
