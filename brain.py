@@ -2,12 +2,12 @@
 import re
 import os
 from PIL import Image
-from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
 from langchain_qdrant import QdrantVectorStore
 from qdrant_client import QdrantClient
 from langchain_core.messages import HumanMessage, SystemMessage, AIMessage
 import streamlit as st
 from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_openai import ChatOpenAI
 import qdrant_client.http.models as qmodels
 from qdrant_client import QdrantClient
 import base64
