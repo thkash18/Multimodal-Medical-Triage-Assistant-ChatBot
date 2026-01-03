@@ -1,4 +1,6 @@
 streamlit
+langchain
+langchain-community
 langchain-openai
 langchain-huggingface
 langchain-qdrant
