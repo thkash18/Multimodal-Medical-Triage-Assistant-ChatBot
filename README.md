@@ -10,7 +10,12 @@
 * **AI-Powered Triage**: Utilizes **Gemma-3-4B** (via OpenRouter) to categorize urgency according to clinical standards.
 * **Visual Urgency Dial**: A dynamic, semi-circular gauge providing an instant visual cue of patient priority.
 * **RAG-Enhanced Brain**: Integrates **Qdrant Cloud** and local **HuggingFace embeddings** for medical protocol retrieval.
-* **Modern Clinical UI**: A "Skyish Blue" frosted-glass interface optimized for ease of use in high-pressure environments.
+
+## 🎨 Design Philosophy: Clinical Contrast
+The application utilizes a professional "High-Contrast" theme designed for clarity:
+* **Deep Navy Sidebar**: Contains control elements and visual upload tools, keeping the main workspace uncluttered.
+* **Clean White Portal**: The main diagnostic area uses a crisp white background to ensure medical text and imagery are perfectly legible.
+* **Visual Urgency Dial**: A dynamic, semi-circular gauge that provides a "at-a-glance" priority level for healthcare providers.
 
 
 
