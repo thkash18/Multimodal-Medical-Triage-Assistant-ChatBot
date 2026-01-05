@@ -110,6 +110,10 @@ class TriageBrain:
 
         # 2. Convert PIL Image to Base64 String if provided
         if pil_image:
+            
+            if pil_image.mode in ("RGBA", "P"):
+                pil_image = pil_image.convert("RGB")
+            
             buffered = BytesIO()
             # Ensure we save in a format the API understands
             pil_image.save(buffered, format="JPEG")
